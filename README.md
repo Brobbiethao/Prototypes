@@ -42,6 +42,7 @@ const food = {
 }
 
 const waffle = Object.create(food)
+
 waffle.init("banana") <-----------------
 
 Here the parameter passed, waffle.init() is invoked assigning "banana" to the parameter "type".
