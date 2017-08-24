@@ -29,7 +29,7 @@ const food = {
 
 const waffle = Object.create(food) <-------------------
 
-On line 30, waffle is defined as a class. The class having "food" (which is a prototype with methods) as a parameter
+waffle is defined as a class. The class having "food" (which is a prototype with methods) as a parameter
 can now access the prototype and its objects.
 -------------------------------------
 
